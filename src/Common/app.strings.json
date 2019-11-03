@@ -1,6 +1,51 @@
 {
+    "Common":{
+        "haveCoffee":"Let’s have coffee",
+        "email":"M. contact@abelsinshaw.com"
+    },
     "About":{
         "Title":" Hi, I'm Abel Sinshaw, a User Experience Designer based in",
-        "SubTitle":"Seattle, Washington."
+        "SubTitle":"Seattle, Washington.",
+        "p1":"I am an end-to-end product designer with high proficiencies in problem-solving, visual UI design, UX design, UX research. I am passionate and deeply rooted in user-centered design principles and methodologies. Over the past nine years, I crafted 10+ projects from startups to corporates, including international organizations creating a visual concept to communicate ideas that inspire, inform, or captivate the users.",
+        "p2":"If there's one thing my design stands out in, it's a unique, clean, and intuitive designs. But, my design isn't just about aesthetics. I focus on finding the simplest solution possible. Mostly putting myself in my users' shoes helps me understand the pain. I am a big fan of immersive empathy design.",
+        "designPricipleTitle":"My design principle",
+        "designPrinciple":"Simple, user-centered and attractive",
+        "p3":"For the most part, the scope of the problem in every project is different. I try to use customized design processes based on the timeline, budget, and other available resources. Along the way, I make sure to focus on the users' needs, scalability, testing, and iterating while keeping in mind the business needs.",
+        "designProcessTitle":"My typical design process looks as follows:"
+    },
+    "Works":{
+        "APFM":{
+            "Title":"APFM",
+            "projectOverview":"Project overview",
+            "p1":"A Place for Mom is the largest senior care referral service in the United States. The main website has more than one million views a month.",
+            "myRoleTitle":"My Role",
+            "myRole":"My role is simple; At least it is simple to understand. To lead the UX team to create a state-of-the-art User Experience without messing up the current business.",
+            "approachTitle":"The Approach",
+            "approach":"After staring at Google Analytics for a long time, conducting user interviews, test the old website, recording the user using Hotjar, and doing all these things repeatedly, We learned something is missing.",
+            "quote":"The first solution is understanding the problem.//n albert einstein",
+            "strategyTitle":"UX Strategy",
+            "strategySubTitle":"Figuring-out the missing or misplaced pieces.",
+            "p2":"We sat down with design team members, business directors, stakeholders, and dev team leaders brainstorming and thinking out loud. I present what we found in our research and suggest what our team can do to solve the problems.",
+            "ul":{
+                "l1":"Understand our users more",
+                "l2":"Create/Update the Design System",
+                "l3":"Redesign our website based on the new design system.//n Accessible, Easy to use and looks good",
+                "l4":"Create a Multiple Destination page designs for SEM",
+                "l5":"Update the UX of the internal tools."
+            },
+            "p3":"We sat down with design team members, business directors, stakeholders, and dev team leaders brainstorming and thinking out loud.",
+            "workDesignsTitle":"Please find some of the designs that my team and I directly participated in.",
+            "backToHome":"Back to home",
+            "researchCardTitle":"Understanding the user more",
+            "researchCardText":"User research",
+            "viewMore":"View more",
+            "semCardTitle":"SEM Landing Page Designse",
+            "semCardText":"Multiple Destination pages",
+            "phlCardTitle":"Project Lighthouse",
+            "phlCardText":"Home Page Redesign"
+        },
+        "Lyft":{},
+        "FAS":{}
     }
 }
+

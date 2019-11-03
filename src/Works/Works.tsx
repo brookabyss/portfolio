@@ -7,22 +7,13 @@ import {
     useParams
   } from "react-router-dom";
   import * as React from 'react';
+import { APFM } from "./APFM/APFM";
+import { Lyft } from "./Lyft/Lyft";
+import { FAS } from "./FASLawFirm/FAS";
 
 export const Works=()=> {
     let match = useRouteMatch();
     let content = !!match?(<div>
-        <h2>Works</h2>
-  
-        <ul>
-          <li>   
-            <Link to={`${match.url}/components`}>Components</Link>
-          </li>
-          <li>
-            <Link to={`${match.url}/props-v-state`}>
-              Props v. State
-            </Link>
-          </li>
-        </ul>
         <Switch>
           <Route path={`${match.path}/:workId`}>
             <Work />
@@ -40,5 +31,14 @@ export const Works=()=> {
   
   export const  Work= () =>{
     let { workId } = useParams();
-    return <h3>Requested work ID: {workId}</h3>;
+    switch(workId){
+      case "APFM":
+        return <APFM/>
+      case "Lyft":
+          return <Lyft/>
+      case "FAS":
+        return <FAS/>
+      default:
+        return <></>
+    }
   }
