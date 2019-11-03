@@ -1,7 +1,19 @@
 {
     "Common":{
         "haveCoffee":"Let’s have coffee",
-        "email":"M. contact@abelsinshaw.com"
+        "email":"M. contact@abelsinshaw.com",
+        "viewMore":"View more"
+    },
+    "Home":{
+        "HeaderText":"Hi, I'm Abel Sinshaw, a User Experience Designer based in Seattle, Washington.",
+        "aboutMe":"about me",
+        "intro":"From strategy to user experience and user interface to visual design.",
+        "responseDesign":"Responsive Design",
+        "uxStrategy":"UX Strategy Design",
+        "apfm":"APFM",
+        "appleWatch":"Apple Watch Application",
+        "lyft":"Lyft",
+        "fas":"FAS Law Firm"
     },
     "About":{
         "Title":" Hi, I'm Abel Sinshaw, a User Experience Designer based in",
@@ -46,6 +58,6 @@
         },
         "Lyft":{},
         "FAS":{}
-    }
+    }  
 }
 

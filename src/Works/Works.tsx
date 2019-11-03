@@ -18,9 +18,6 @@ export const Works=()=> {
           <Route path={`${match.path}/:workId`}>
             <Work />
           </Route>
-          <Route path={match.path}>
-            <h3>Please select a work item.</h3>
-          </Route>
         </Switch>
       </div>):<></>
   

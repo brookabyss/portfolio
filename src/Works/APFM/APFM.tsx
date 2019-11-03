@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { getCommonStyles } from '../../Common/common.styles';
 import researchImg from '../../Assets/research.png';
 import PLHImg from '../../Assets/PLH.png';
 import peopleImg from '../../Assets/people.png';
