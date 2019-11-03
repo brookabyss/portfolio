@@ -11,23 +11,14 @@ import { About } from "./About/About";
 import { Works } from "./Works/Works";
 import { Home } from "./Home/Home";
 import { getCommonStyles } from "./Common/common.styles";
+import { Nav } from "./Common/Nav";
 
 export const App= ()=> {
   const styles = getCommonStyles();
   return (
     <Router>
       <div style={styles.container}>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/works">Works</Link>
-          </li>
-        </ul>
+      <Nav/>
 
         <Switch>
           <Route path="/about">

@@ -5,13 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: Poppins, sans-serif,
+  font-family: Poppins, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
 
 .commonSubTitle{
 font-style: normal;
@@ -36,12 +32,10 @@ color: #5D5D5D;
 }
 
 .container{
-  margin-top:66px;
 }
 
 p{
 width: 977px;
-height: 144px;
 left: 312px;
 top: 1341px;
 
@@ -235,4 +229,67 @@ justify-content:space-between;
 .cardImg{
 width: 100%;
 height: auto;
+}
+
+.viewMore{
+  position: absolute;
+
+}
+
+.navLink,.navLink:active, .navLink.hover{
+  color: #4F4F4F;
+  margin-right: 15px;
+  font-family: Poppins,sans-serif;
+  font-size: 18px;
+}
+.navLinks{
+  display: inline;
+  position: absolute;
+  right: 200px;
+}
+nav{
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.logo{
+  width: 200px
+}
+
+#works{
+  height:auto;
+}
+
+.thumbImg{
+  width:70%;
+  height: 100%;
+  vertical-align: bottom;
+}
+.workCard{
+  display: inline-block;
+  height: 100%;
+  width: 30%;
+  position: relative;
+  vertical-align: top;
+  color: #F2F2F2;
+}
+.workBox{
+  background:#879AB4;
+  margin: 30px auto;
+  padding: 0;
+}
+.workLink{
+  padding: 0;
+}
+
+.workCardViewMore{
+  padding-top: 30%;
+}
+
+.container-fluid{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background:#879AB4;
 }
