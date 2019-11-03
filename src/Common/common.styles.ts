@@ -19,7 +19,7 @@ export const getCommonStyles = ()=>{
             width:"170px"
         },
         container:{
-            width:"70%",
+            width:"100%",
             margin:"0 auto"
         },
         subTitle: {

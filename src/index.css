@@ -10,15 +10,14 @@ body {
 
 
 .commonSubTitle{
-font-style: normal;
-font-weight: bold;
+font-family: poppins, sans-serif;
+font-weight: 600;
 font-size: 24px;
 line-height: 36px;
 /* identical to box height */
 display: flex;
-align-items: center;
-text-transform: uppercase;
 color: #5D5D5D;
+padding: 15px 0 !important;
 }
 
 .title{
@@ -28,22 +27,27 @@ color: #5D5D5D;
   -webkit-text-fill-color: transparent;
   font-size:64px;
   line-height:72px;
-  font-weight:600
+  font-weight:700
 }
-
+.container-fluid{
+  width: 100%;
+  margin: 50px auto;
+}
+.container-min {
+   width: 70%;
+   margin: 50px auto;
+}
 .container{
+   width: 80%;
+   margin:0 auto;
 }
 
 p{
-width: 977px;
-left: 312px;
-top: 1341px;
-
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
-line-height: 36px;
+font-size: 18px;
+line-height: 24px;
 display: flex;
 align-items: center;
 
@@ -120,7 +124,7 @@ left: 0px;
 }
 
 .contactMeContainer{
-  margin-top: 600px;
+  margin-top: 540px;
 }
 
 .contactTitle{
@@ -174,19 +178,20 @@ margin-right: 20px;
 }
 
 .peopleImg{
-width: 761.11px;
-height: 536.02px;
+width: 100%;
+height: auto;
+margin: 50px auto;
+display: block;
+
+
 }
 
 .quote{
-font-style: normal;
-font-weight: 600;
-font-size: 48px;
-line-height: 72px;
-display: flex;
-align-items: center;
-
-color: #879AB4;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #879AB4;
 }
 
 
@@ -218,17 +223,29 @@ height:400px;
 width: 100%;
 display: flex;
 justify-content:space-between;
+margin: 50px auto;
+
 }
 
 .card{
   background: #EFEFEF;
   height: 100%;
-  width: 30%;
+  width: 26%;
+  padding: 3%
 }
 
 .cardImg{
 width: 100%;
 height: auto;
+}
+
+
+h3 {
+  margin:0;
+  font-size: 28px;
+  font-weight: 500;
+  text-decoration: none !important;
+  color:#333;
 }
 
 .viewMore{
@@ -291,5 +308,4 @@ nav{
   width: 100%;
   height: auto;
   margin: 0 auto;
-  background:#879AB4;
 }

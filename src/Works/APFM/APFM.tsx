@@ -1,7 +1,7 @@
 import * as React from 'react';
 import researchImg from '../../Assets/research.png';
 import PLHImg from '../../Assets/PLH.png';
-import peopleImg from '../../Assets/people.png';
+import peopleImg from '../../Assets/hero-apfm.png';
 import SEMImg from '../../Assets/SEM.png';
 import * as strings from '../../Common/app.strings.json'
 import {ContactCard} from '../../Common/Contact'
@@ -24,39 +24,31 @@ export const APFM = ()=>{
     return (
         <div className="APFM">         
             {content}          
-            {/* <img style={styles.profileImg} className="profileImg" src={profileImg} alt="profile image"/>
-            <div className="title" style={styles.title}>{strings.About.Title}</div>
-            <div className={"container"} style={styles.subTitle}>{subTitle[0]+",\n"+subTitle[1]}</div>
-            <p className={"container"} >{strings.About.p1}</p>
-            <p className={"container"} >{strings.About.p2}</p>
-            <div className={"container container60"}>
-                <span className={"container designPrincipleTitle"} >{strings.About.designPricipleTitle}</span>
-                <span className={"container designPrinciple"} >{strings.About.designPrinciple}</span>
-            </div>
-            <p className={"container"} >{strings.About.p3}</p>
-            <span className={"container designProcessTitle"} >{strings.About.designProcessTitle}</span>
-            <img className="designProcess" src={designProcess} alt="design process sketch image"/>
-            <ContactCard/> */}
         </div>
     )
 }
 
 const APFMContent = ()=>{
-    const quote = strings.Works.APFM.quote.split("//n");
     const listItem3 = strings.Works.APFM.ul.l3.split("//n");
     return (
-        <div className="APFM">    
-            <div className="title" >{strings.Works.APFM.Title}</div>
+        <div className="container-fluid"> 
+               
+            <div className=" container title" >{strings.Works.APFM.Title}</div>
             <span className={"container commonSubTitle"} >{strings.Works.APFM.projectOverview}</span>
             <p className={"container"} >{strings.Works.APFM.p1}</p>
+            <div className="container-fluid">
             <img className="peopleImg" src={peopleImg} alt="people image"/>
-            <span className={"container commonSubTitle"} >{strings.Works.APFM.myRoleTitle}</span>
-            <p className={"container"} >{strings.Works.APFM.myRole}</p>
+            </div>
             <span className={"container commonSubTitle"} >{strings.Works.APFM.approachTitle}</span>
             <p className={"container"} >{strings.Works.APFM.approach}</p>
-            <span className={"container quote"} >{quote[0]}</span>
-            <span className={"quote"} >{"-"+quote[1]}</span>
-            <span className={"container commonSubTitle"} >{strings.Works.APFM.strategyTitle}</span>
+           
+            <div className="container-min">
+                <span className={"quote"} >{strings.Works.APFM.quote}</span>
+                <p className="name">{strings.Works.APFM.name}</p>
+            </div>
+            
+            <div className="container">
+            <span className={"commonSubTitle"} >{strings.Works.APFM.strategyTitle}</span>
             <span className={"subTitle"} >{strings.Works.APFM.strategySubTitle}</span>
             <ul>
                 <li className="text">{strings.Works.APFM.ul.l1}</li>
@@ -65,20 +57,9 @@ const APFMContent = ()=>{
                 <li className="text">{strings.Works.APFM.ul.l4}</li>
                 <li className="text">{strings.Works.APFM.ul.l5}</li>         
             </ul>
+            </div>
+           
             <Card/>
-        {/* <img style={styles.profileImg} className="profileImg" src={profileImg} alt="profile image"/>
-        <div className="title" style={styles.title}>{strings.About.Title}</div>
-        <div className={"container"} style={styles.subTitle}>{subTitle[0]+",\n"+subTitle[1]}</div>
-        <p className={"container"} >{strings.About.p1}</p>
-        <p className={"container"} >{strings.About.p2}</p>
-        <div className={"container container60"}>
-            <span className={"container designPrincipleTitle"} >{strings.About.designPricipleTitle}</span>
-            <span className={"container designPrinciple"} >{strings.About.designPrinciple}</span>
-        </div>
-        <p className={"container"} >{strings.About.p3}</p>
-        <span className={"container designProcessTitle"} >{strings.About.designProcessTitle}</span>
-        <img className="designProcess" src={designProcess} alt="design process sketch image"/>
-        <ContactCard/> */}
     </div>
     )
 }
@@ -106,31 +87,31 @@ const Card =()=>{
     return (
         <div className="container cards">
             <div className="card">
-            <Link to="/works/APFM/research">
+            <Link style={{ textDecoration:"none"}}to="/works/APFM/research">
                 <img className="cardImg" src={researchImg} alt="research card image"/>
-                <div className="cardText">
-                    <span className={"commonSubTitle"} >{strings.Works.APFM.researchCardTitle}</span>
-                    <span className={"subTitle"} >{strings.Works.APFM.researchCardText}</span>
+                <div>
+                    <h3>{strings.Works.APFM.researchCardTitle}</h3>
+                    <h6>{strings.Works.APFM.researchCardText}</h6>
                     <span>{strings.Works.APFM.viewMore}</span>
                 </div>
             </Link>
             </div>
             <div className="card">
-            <Link to="/works/APFM/SEM">
+            <Link style={{ textDecoration:"none"}} to="/works/APFM/SEM">
                 <img className="cardImg" src={SEMImg} alt="SEM card image"/>
-                <div className="cardText">
-                    <span className={"commonSubTitle"} >{strings.Works.APFM.semCardTitle}</span>
-                    <span className={"subTitle"} >{strings.Works.APFM.semCardText}</span>
+                <div>
+                    <h3>{strings.Works.APFM.semCardTitle}</h3>
+                    <h6 >{strings.Works.APFM.semCardText}</h6>
                     <span>{strings.Works.APFM.viewMore}</span>
                 </div>
             </Link>
             </div>
             <div className="card">
-            <Link to="/works/APFM/PLH">
+            <Link style={{ textDecoration:"none"}}to="/works/APFM/PLH">
                 <img className="cardImg" src={PLHImg} alt="Project light house card image"/>
                 <div className="cardText">
-                    <span className={"commonSubTitle"} >{strings.Works.APFM.phlCardTitle}</span>
-                    <span className={"subTitle"} >{strings.Works.APFM.phlCardText}</span>
+                    <h3>{strings.Works.APFM.phlCardTitle}</h3>
+                    <h6>{strings.Works.APFM.phlCardText}</h6>
                     <span>{strings.Works.APFM.viewMore}</span>
                 </div>
             </Link>
