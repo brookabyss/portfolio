@@ -27,14 +27,14 @@
     },
     "Works":{
         "APFM":{
-            "Title":"APFM",
+            "Title":"UX Strategy + Design",
             "projectOverview":"Project overview",
-            "p1":"A Place for Mom is the largest senior care referral service in the United States. The main website has more than one million views a month.",
-            "myRoleTitle":"My Role",
-            "myRole":"My role is simple; At least it is simple to understand. To lead the UX team to create a state-of-the-art User Experience without messing up the current business.",
+            "p1":"A Place for Mom is the largest senior care referral service in the United States. The main website has more than one million views a month. My role at APFM is simple; At least it is simple to understand. To lead the UX team to create a state-of-the-art User Experience without messing up the current business.",
+          
             "approachTitle":"The Approach",
             "approach":"After staring at Google Analytics for a long time, conducting user interviews, test the old website, recording the user using Hotjar, and doing all these things repeatedly, We learned something is missing.",
-            "quote":"The first solution is understanding the problem.//n albert einstein",
+            "quote":"The first solution is understanding the problem.",
+            "name":"----- Albert Einstein ",
             "strategyTitle":"UX Strategy",
             "strategySubTitle":"Figuring-out the missing or misplaced pieces.",
             "p2":"We sat down with design team members, business directors, stakeholders, and dev team leaders brainstorming and thinking out loud. I present what we found in our research and suggest what our team can do to solve the problems.",
