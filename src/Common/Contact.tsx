@@ -6,9 +6,9 @@ import * as strings from '../Common/app.strings.json'
 
 export const ContactCard = ()=>{
     return (
-        <div className="container contactMeContainer">
-            <span className={"contactTitle"} >{strings.Common.haveCoffee}</span>
-            <span className={"email"}>{strings.Common.email}</span>
+        <div className="container-70">
+            <h2>{strings.Common.haveCoffee}</h2>
+            <p>{strings.Common.email}</p>
             <img className="icon" src={linkedInImg} alt="Linked In icon"/>
             <img className="secondIcon icon" src={instaImg} alt="instagram icon"/>
         </div>

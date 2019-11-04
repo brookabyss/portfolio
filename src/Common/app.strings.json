@@ -7,17 +7,16 @@
     "Home":{
         "HeaderText":"Hi, I'm Abel Sinshaw, a User Experience Designer based in Seattle, Washington.",
         "aboutMe":"about me",
-        "intro":"From strategy to user experience and user interface to visual design.",
+        "intro":"I'm an end-to-end product designer from strategy to user experience and user interface to visual design.",
         "responseDesign":"Responsive Design",
-        "uxStrategy":"UX Strategy Design",
-        "apfm":"APFM",
+        "uxStrategy":"UX Strategy + Design",
+        "apfm":"A Place for Mom",
         "appleWatch":"Apple Watch Application",
-        "lyft":"Lyft",
+        "lyft":"For Lyft drivers",
         "fas":"FAS Law Firm"
     },
     "About":{
-        "Title":" Hi, I'm Abel Sinshaw, a User Experience Designer based in",
-        "SubTitle":"Seattle, Washington.",
+        "Title":" Hi, I'm Abel Sinshaw, a User Experience Designer based in Seattle, Washington.",
         "p1":"I am an end-to-end product designer with high proficiencies in problem-solving, visual UI design, UX design, UX research. I am passionate and deeply rooted in user-centered design principles and methodologies. Over the past nine years, I crafted 10+ projects from startups to corporates, including international organizations creating a visual concept to communicate ideas that inspire, inform, or captivate the users.",
         "p2":"If there's one thing my design stands out in, it's a unique, clean, and intuitive designs. But, my design isn't just about aesthetics. I focus on finding the simplest solution possible. Mostly putting myself in my users' shoes helps me understand the pain. I am a big fan of immersive empathy design.",
         "designPricipleTitle":"My design principle",
@@ -29,7 +28,7 @@
         "APFM":{
             "Title":"UX Strategy + Design",
             "projectOverview":"Project overview",
-            "p1":"A Place for Mom is the largest senior care referral service in the United States. The main website has more than one million views a month. My role at APFM is simple; At least it is simple to understand. To lead the UX team to create a state-of-the-art User Experience without messing up the current business.",
+            "p1":"A Place for Mom is the largest senior care referral service in the United States. The main website has more than one million views a month. My role at APFM is simple; At least it is simple to understand. To work with the UX team to create a state-of-the-art User Experience without messing up the current business.",
           
             "approachTitle":"The Approach",
             "approach":"After staring at Google Analytics for a long time, conducting user interviews, test the old website, recording the user using Hotjar, and doing all these things repeatedly, We learned something is missing.",
@@ -51,12 +50,51 @@
             "researchCardTitle":"Understanding the user more",
             "researchCardText":"User research",
             "viewMore":"View more",
-            "semCardTitle":"SEM Landing Page Designse",
+            "semCardTitle":"SEM Landing Page Designs",
             "semCardText":"Multiple Destination pages",
             "phlCardTitle":"Project Lighthouse",
             "phlCardText":"Home Page Redesign"
         },
-        "Lyft":{},
+        "Lyft":{
+            "header":"An Apple Watch application",
+            "title":"For lyft drivers",
+            "projectOverviewTitle":"Project overview",
+            "projectOverview":"The goal of the project is to find the pain points in the existing app and searching for a new way to make the ride as seamless as possible and avoid stress for Lyft drivers.",
+            "problemTitle":"The problem",
+            "problem":{
+                "p1":"We only had Destination pages that have a similar purpose, regardless of the users' specific needs. We understand we can not go further without providing a tailored experience since we have different user groups and services for different care types.",
+                "p2":"Channeling different user groups to a one size fits all destination pages make the users frustrated to find relevant information and takes time to navigate around. This approach increased the bouncing rate, Search engine marketing cost, and most importantly, it created friction for the users."          
+            },
+            "designProcessTitle1":"The  Design Process",
+            "designProcess1":{
+                "p1":"When a product team begins a new project, the list of things to do can be overwhelming. I believe a strong design process is necessary to create structure, efficiency, and a clear path to completion. I used a condensed human-centered design(HCD) approach to fit our agile team and timeline. The overall process began by stating the problem, followed by conducting research, brainstorming solutions, designing prototypes, and finally testing and iteration.",
+                "ol":{
+                    "discoveryTitle":"Discovery",
+                    "discovery":{
+                        "p1":"Our team gathered together to develop an understanding of the problem we are trying to solve and define the path we need to take to explore solutions.",
+                        "quote":"If I had only one hour to solve a problem, I would spend up to two-thirds of that hour in attempting to define what the problem is.",
+                        "author":"--- Matthew Wakeman",
+                        "p2":"I led the team to create a fictional representation of the users( Lyft Drivers). This persona is framed out of the user research and includes the needs, goals, and observed behavior patterns of the target audience.",
+                        "personaTitle":"The Persona",
+                        "persona":" Sam is a 28 years old Lyft driver who writes a short storybook. He has a wife and a four years old boy. He drives Lyft to support his family while pursuing his writing carrier.",
+                        "p3":"We asked ourselves, 'What is the best way to understand the pain of a driver?' The answer was simple ",
+                        "slogan":"Became a Lyft Driver",
+                        "immersive":"--- Immersive Empathy Design",
+                        "p4":"My team and I  gave 250 rides each for a couple of months. Immersing as a driver helped us gain a deeper appreciation and understanding of the drivers' emotional and physical needs, and the way they see, understand and interact with the riders and the application.",
+                        "lyftRating":"(for the record I have 4.9 ratings as a driver)",
+                        "p5":"I created an empathy map that creates an understanding of the emotional and functional context of a user while driving.",
+                        "p6":"After assessing the needs, frustration, expectation, and emotional state of the drivers, we card-sort the problem into three categories. Due to the sensitive nature, I can not describe the research and result of this project!",
+                        "sensitive":"Due to the sensitive nature of the project, I can not share the outcome of the research.",
+                        "p7":"Based on the result of the research, I created a Propeller assessment system for testing and benchmarking the success of a product."
+                    },
+                    "IdeationAndDesignTitle2":"Ideation and Design",
+                    "IdeationAndDesign":{
+                        "p1":"At this point, my team and I are ready to put some skin in the game. We brainstormed, sketched, erased, and sketch again to explore a new way of doing things. Now it looks like we are designing a product.",
+                        "p2":"I can say this was the most fun but also the messiest part. We had many versions, many options, many feedbacks, more comments, and many failed ideas. We sated closely to our first user persona, to make sure we are still building a product for the users. Of course, we did not forget the business objectives."
+                    }
+                }
+            }
+        },
         "FAS":{}
     }  
 }

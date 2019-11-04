@@ -33,21 +33,21 @@ const APFMContent = ()=>{
     return (
         <div className="container-fluid"> 
                
-            <div className=" container title" >{strings.Works.APFM.Title}</div>
-            <span className={"container commonSubTitle"} >{strings.Works.APFM.projectOverview}</span>
-            <p className={"container"} >{strings.Works.APFM.p1}</p>
+            <h1 className=" container-70 gradient" >{strings.Works.APFM.Title}</h1>
+            <h1 className={"container-70 commonSubTitle"} >{strings.Works.APFM.projectOverview}</h1>
+            <p className={"container-70"} >{strings.Works.APFM.p1}</p>
             <div className="container-fluid">
-            <img className="peopleImg" src={peopleImg} alt="people image"/>
+            <img className="cover" src={peopleImg} alt="people image"/>
             </div>
-            <span className={"container commonSubTitle"} >{strings.Works.APFM.approachTitle}</span>
-            <p className={"container"} >{strings.Works.APFM.approach}</p>
+            <span className={"container-70 commonSubTitle"} >{strings.Works.APFM.approachTitle}</span>
+            <p className={"container-70"} >{strings.Works.APFM.approach}</p>
            
             <div className="container-min">
-                <span className={"quote"} >{strings.Works.APFM.quote}</span>
+                <h1 className={"quote"} >{strings.Works.APFM.quote}</h1>
                 <p className="name">{strings.Works.APFM.name}</p>
             </div>
             
-            <div className="container">
+            <div className="container-70">
             <span className={"commonSubTitle"} >{strings.Works.APFM.strategyTitle}</span>
             <span className={"subTitle"} >{strings.Works.APFM.strategySubTitle}</span>
             <ul>
@@ -60,6 +60,7 @@ const APFMContent = ()=>{
             </div>
            
             <Card/>
+            <div className="container"> <ContactCard/></div> 
     </div>
     )
 }
@@ -85,14 +86,14 @@ const APFMSubComponents = ()=>{
 
 const Card =()=>{
     return (
-        <div className="container cards">
+        <div className="container-70 cards">
             <div className="card">
             <Link style={{ textDecoration:"none"}}to="/works/APFM/research">
                 <img className="cardImg" src={researchImg} alt="research card image"/>
                 <div>
-                    <h3>{strings.Works.APFM.researchCardTitle}</h3>
-                    <h6>{strings.Works.APFM.researchCardText}</h6>
-                    <span>{strings.Works.APFM.viewMore}</span>
+                    <h4>{strings.Works.APFM.researchCardTitle}</h4>
+                    {/* <h4>{strings.Works.APFM.researchCardText}</h4> */}
+                    {/* <p className="padding-40">{strings.Works.APFM.viewMore}</p> */}
                 </div>
             </Link>
             </div>
@@ -100,9 +101,9 @@ const Card =()=>{
             <Link style={{ textDecoration:"none"}} to="/works/APFM/SEM">
                 <img className="cardImg" src={SEMImg} alt="SEM card image"/>
                 <div>
-                    <h3>{strings.Works.APFM.semCardTitle}</h3>
-                    <h6 >{strings.Works.APFM.semCardText}</h6>
-                    <span>{strings.Works.APFM.viewMore}</span>
+                    <h4>{strings.Works.APFM.semCardTitle}</h4>
+                    {/* <h4>{strings.Works.APFM.semCardText}</h4> */}
+                    {/* <p className="padding-40">{strings.Works.APFM.viewMore}</p> */}
                 </div>
             </Link>
             </div>
@@ -110,9 +111,9 @@ const Card =()=>{
             <Link style={{ textDecoration:"none"}}to="/works/APFM/PLH">
                 <img className="cardImg" src={PLHImg} alt="Project light house card image"/>
                 <div className="cardText">
-                    <h3>{strings.Works.APFM.phlCardTitle}</h3>
-                    <h6>{strings.Works.APFM.phlCardText}</h6>
-                    <span>{strings.Works.APFM.viewMore}</span>
+                    <h4>{strings.Works.APFM.phlCardTitle}</h4>
+                    {/* <h4>{strings.Works.APFM.phlCardText}</h4> */}
+                    {/* <p className="padding-40">{strings.Works.APFM.viewMore}</p> */}
                 </div>
             </Link>
             </div>

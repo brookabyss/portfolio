@@ -5,7 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 
 export const Nav = ()=>{
     return (
-        <nav>
+        <nav className="container-70">
             <Link to="/" style={{ textDecoration: 'none' }}><img className="logo" src={logo} alt="logo image"/></Link>
             <div className="navLinks">
                 <Link to="/about" style={{ textDecoration: 'none' }}><span className="navLink">About</span></Link>       

@@ -3,20 +3,16 @@ export const getCommonStyles = ()=>{
         fontFamily:{
             fontFamily:"popping",
         },
-        title: {
-            fontFamily:"'Poppins', sans-serif",
-            fontSize:"64px",
-            lineHeight:"72px",
-            fontWeight:600
-        },
+      
         paragraphText:{
             fontFamily:"'Poppins', sans-serif",
             fontSize:"24px",
             color:"#333"
         },
         profileImg:{
-            height:"170px",
-            width:"170px"
+            height:"150px",
+            width:"150px",
+            margin:"50px auto"
         },
         container:{
             width:"100%",

@@ -7,7 +7,6 @@ import {ContactCard} from '../../Common/Contact'
 
 export const FAS = ()=>{
     const styles = getCommonStyles();
-    const subTitle = strings.About.SubTitle.split(",");
     return (
         <div className="FAS">
             {"FAS"}

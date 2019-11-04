@@ -25,16 +25,20 @@ padding: 15px 0 !important;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size:64px;
-  line-height:72px;
   font-weight:700
+}
+.gradient{
+    background: linear-gradient(to bottom right, #2388e3, #7631ac);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .container-fluid{
   width: 100%;
   margin: 50px auto;
 }
 .container-min {
-   width: 70%;
+   width: 60%;
    margin: 50px auto;
 }
 .container{
@@ -47,11 +51,7 @@ font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
-line-height: 24px;
-display: flex;
-align-items: center;
-
-/* Gray 2 */
+line-height: 28px;
 color: #4F4F4F;
 }
 
@@ -98,33 +98,8 @@ color: #879AB4;
   margin: 0 auto;
 }
 
-.designProcessTitle{
-width: 521px;
-height: 72px;
-left: 312px;
-top: 2121px;
-
-font-family: Poppins;
-font-style: italic;
-font-weight: 500;
-font-size: 24px;
-line-height: 36px;
-display: flex;
-align-items: center;
-
-/* Gray 2 */
-color: #4F4F4F;
-}
-
-.designProcess{
-position: absolute;
-width: 1600px;
-height: 491px;
-left: 0px;
-}
-
 .contactMeContainer{
-  margin-top: 540px;
+  margin-top:50px;
 }
 
 .contactTitle{
@@ -177,7 +152,7 @@ margin-right: 20px;
   left: 362px;
 }
 
-.peopleImg{
+.cover{
 width: 100%;
 height: auto;
 margin: 50px auto;
@@ -189,8 +164,6 @@ display: block;
 .quote{
     font-family: poppins, sans-serif;
     font-weight: 600;
-    font-size: 48px;
-    line-height: 56px;
     color: #879AB4;
 }
 
@@ -219,19 +192,18 @@ align-items: center;
 color: #4F4F4F;
 }
 .cards{
-height:400px;
+height:auto;
 width: 100%;
 display: flex;
 justify-content:space-between;
-margin: 50px auto;
-
 }
 
 .card{
   background: #EFEFEF;
-  height: 100%;
+  height: auto;
   width: 26%;
-  padding: 3%
+  padding: 3%;
+  margin-top:20px;
 }
 
 .cardImg{
@@ -239,10 +211,29 @@ width: 100%;
 height: auto;
 }
 
+h1 {
+  font-size: 46px;
+  line-height: 56px;
+  margin: 0;
+}
+h2 {
+
+  font-size:36px;
+  line-height: 48px;
+  color: #879AB4;
+  margin:0px;
+}
 
 h3 {
   margin:0;
   font-size: 28px;
+  font-weight: 500;
+  text-decoration: none !important;
+  color:#333;
+}
+h4 {
+  margin:0;
+  font-size: 18px;
   font-weight: 500;
   text-decoration: none !important;
   color:#333;
@@ -280,32 +271,60 @@ nav{
 
 .thumbImg{
   width:70%;
-  height: 100%;
+  height: auto;
   vertical-align: bottom;
 }
 .workCard{
   display: inline-block;
-  height: 100%;
-  width: 30%;
+  height: auto;
+  width: 100%;
   position: relative;
   vertical-align: top;
-  color: #F2F2F2;
+  color:#879ab4;
+  padding-top: 40px;
 }
 .workBox{
-  background:#879AB4;
   margin: 30px auto;
   padding: 0;
+  display: flex;
+  border-radius: 5px;
+  border: 10px solid #879ab4;
 }
 .workLink{
   padding: 0;
 }
 
 .workCardViewMore{
-  padding-top: 30%;
+  padding-top: 20%;
 }
 
 .container-fluid{
   width: 100%;
   height: auto;
   margin: 0 auto;
+}
+.container-70{
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.hero {
+  padding-top:50px;
+  margin-bottom: 50px;
+}
+.padding-40{
+  padding-top: 20px;
+}
+
+.lyftWatch{
+  width:486px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.designprocess{
+  width:100%;
+  height: auto;
 }
