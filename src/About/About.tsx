@@ -7,22 +7,29 @@ import {ContactCard} from '../Common/Contact'
 
 export const About = ()=>{
     const styles = getCommonStyles();
-    const subTitle = strings.About.SubTitle.split(",");
+  
     return (
         <div className="about">
-            <img style={styles.profileImg} className="profileImg" src={profileImg} alt="profile image"/>
-            <div className="title" style={styles.title}>{strings.About.Title}</div>
-            <div className={"container"} style={styles.subTitle}>{subTitle[0]+",\n"+subTitle[1]}</div>
-            <p className={"container"} >{strings.About.p1}</p>
-            <p className={"container"} >{strings.About.p2}</p>
-            <div className={"container container60"}>
-                <span className={"container designPrincipleTitle"} >{strings.About.designPricipleTitle}</span>
-                <span className={"container designPrinciple"} >{strings.About.designPrinciple}</span>
+            <div className="container-70">
+                <img style={styles.profileImg} className="profileImg" src={profileImg} alt="profile image"/>
+                <h1 className="gradient">{strings.About.Title}</h1>
+                <p>{strings.About.p1}</p>
+                <p>{strings.About.p2}</p>
             </div>
-            <p className={"container"} >{strings.About.p3}</p>
-            <span className={"container designProcessTitle"} >{strings.About.designProcessTitle}</span>
-            <img className="designProcess" src={designProcess} alt="design process sketch image"/>
-            <ContactCard/>
+
+            <div className="container-min">
+                <p>{strings.About.designPricipleTitle}</p>
+                <h1>{strings.About.designPrinciple}</h1> 
+            </div>
+
+            <div className="container-70">
+                <p>{strings.About.p3}</p>
+                <span className={"container designProcessTitle"} >{strings.About.designProcessTitle}</span>
+            </div>
+            <div>
+                <img className="cover" src={designProcess} alt="design process sketch image"/>
+                </div>
+                <ContactCard/>
         </div>
     )
 }

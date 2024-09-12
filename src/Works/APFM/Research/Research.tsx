@@ -1,15 +1,17 @@
-import * as React from 'react';
 import { getCommonStyles } from '../../../Common/common.styles';
-import profileImg from '../Assets/profile.png';
-import designProcess from '../Assets/designProcess.png';
 import * as strings from '../../../Common/app.strings.json'
-import {ContactCard} from '../../../Common/Contact'
+import {ContactCard} from '../../../Common/Contact';
+import carouselImg from '../../../Assets/carousel.png';
+import { useState } from 'react';
+import React, { Component } from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 export const Research = ()=>{
     const styles = getCommonStyles();
     return (
         <div className="about">
-             {"Research"}
+            <CustomCarousel/>
             {/* <img style={styles.profileImg} className="profileImg" src={profileImg} alt="profile image"/>
             <div className="title" style={styles.title}>{strings.About.Title}</div>
             <div className={"container"} style={styles.subTitle}>{subTitle[0]+",\n"+subTitle[1]}</div>
@@ -25,4 +27,24 @@ export const Research = ()=>{
             <ContactCard/> */}
         </div>
     )
+}
+class CustomCarousel extends Component {
+    render() {
+        return (
+            <Carousel>
+                <div>
+                    <img src={carouselImg} />
+                    <p className="legend">Legend 1</p>
+                </div>
+                <div>
+                    <img src={carouselImg} />
+                    <p className="legend">Legend 2</p>
+                </div>
+                <div>
+                    <img src={carouselImg} />
+                    <p className="legend">Legend 3</p>
+                </div>
+            </Carousel>
+        );
+    }
 }
